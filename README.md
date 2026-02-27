@@ -167,19 +167,6 @@ Theme and fonts are configured in `slideshow/src/styles/`.
 
 See [docs/CREATING_A_COURSE.md](docs/CREATING_A_COURSE.md) for a step-by-step guide.
 
-## Approximate API Costs
-
-Per module (~10 minutes of video, ~18 slides):
-
-| Step | API | Approximate Cost |
-|------|-----|-----------------|
-| Speech generation | Gemini 2.5 Pro (via fal) | ~$0.50 |
-| TTS audio | ElevenLabs (via fal) | ~$1-2 |
-| Avatar generation | LTX video (via fal) | ~$5-10 |
-| **Total per module** | | **~$7-13** |
-
-Costs vary based on slide count, speech length, and avatar clip count.
-
 ## Project Structure
 
 ```
