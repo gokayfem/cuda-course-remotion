@@ -1,0 +1,27 @@
+{
+  "name": "ai-course-video",
+  "version": "1.0.0",
+  "description": "AI-powered course video generation with Remotion slideshows, TTS narration, and avatar overlay",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render CudaModule1",
+    "build:all": "npx remotion render CudaModule1 out/module1.mp4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.429",
+    "@remotion/google-fonts": "^4.0.429",
+    "@remotion/transitions": "^4.0.429",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.429"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
+  }
+}
