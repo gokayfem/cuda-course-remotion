@@ -12,12 +12,12 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@remotion/cli": "^4.0.429",
-    "@remotion/google-fonts": "^4.0.429",
-    "@remotion/transitions": "^4.0.429",
+    "@remotion/cli": "4.0.543",
+    "@remotion/google-fonts": "4.0.543",
+    "@remotion/transitions": "4.0.543",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "remotion": "^4.0.429"
+    "remotion": "4.0.543"
   },
   "devDependencies": {
     "@types/react": "^19.2.14",
